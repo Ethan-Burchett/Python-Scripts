@@ -17,8 +17,3 @@ def get_path_name():
         root.destroy()
     return filename
 
-
-
-
-
-print(get_path_name())
