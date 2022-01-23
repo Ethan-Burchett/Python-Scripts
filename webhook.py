@@ -12,12 +12,3 @@ class Webhook:
         r = requests.post(self.zap_hook_url, data=json.dumps(self.data), headers={'Content-Type': 'application/json'})
 
 
-
-# if __name__ == "__main__":
-    
-#     zap_hook_url = 'https://hooks.zapier.com/hooks/catch/10537799/b22e70h/'
-#     data =''
-
-
-
-
